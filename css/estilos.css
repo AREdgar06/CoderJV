@@ -1,0 +1,141 @@
+:root{
+   --fuenteHeading:'Roboto Mono', monospace;
+   --fuenteParrafos:'Roboto Mono', monospace;
+   --Colorprimario:#A10D0D;
+   --Colorsecundario:#181717;
+   --ColorTerciario:#FFFFFF;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family:var(--fuenteHeading);
+    text-decoration: none;
+}
+header{
+    background-color:var(--Colorsecundario);
+    height: 110px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.nav > ul{
+    display: flex;
+    margin-left: 70%;
+    list-style: none;
+    justify-content: center;
+    color:var(--ColorTerciario);
+    width: max-content;
+}
+
+.nav-menu-link:hover{
+    background-color:var(--Colorprimario);
+    border-radius: 3px;
+}
+
+.nav-link{
+    color:var(--ColorTerciario);
+    text-decoration: none;
+}
+
+.nav-menu-item{
+    font-size: 18px;
+    margin: 0 20px;
+    text-transform: uppercase;
+    width: max-content;
+}
+
+.nav > img{
+    width: 27%;
+    height: 80px;
+}
+
+/* footer */
+
+footer{
+    background:var(--Colorsecundario);
+    padding: 50px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenedor-footer{
+    /* display: flex; */
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+    border-bottom: 1px solid var(--ColorTerciario);
+    box-sizing: border-box;
+}
+
+.content-foo{
+    text-align: right;
+}
+
+footer >a> h2{
+    text-align: center;
+    background-color:var(--Colorsecundario);
+    font-size: 60px;
+    color: var(--Colorprimario);
+    -webkit-text-stroke-color: var(--ColorTerciario);
+    -webkit-text-stroke-width: 1.5px;
+}
+.contenedor > section{
+    margin-top: 0px;
+    display: flex;
+    background-color: #0f0f0f;
+    box-shadow: #02153a;
+    padding: 5%;
+
+}
+.contenedor > section > p{
+    padding-left: 5%;
+}
+
+.texto{
+    padding-left: 30%;
+}
+
+.imagen{
+    padding-right: 30%;
+    margin-top: 5%;
+}
+body{
+    background-color: #0f0f0f;
+}
+
+.contenido3 > section{
+    margin-top: 0px;
+    display: flex;
+    background-color: #0f0f0f;
+    padding-left: 5%;
+}
+
+.contenido3 > section > p{
+    padding-left: 5%;
+    margin-top: 0%;
+}
+.imagenes{
+    padding-right: 30%;
+    margin-top: 0%;
+}
+body{
+    background-color: #0f0f0f;
+}
+
+.contenido > section {
+    margin-top: 0px;
+    display: flex;
+    background-color: #0f0f0f;
+    box-shadow:var(--Colorsecundario);
+    padding: 0.1000%;
+    padding-left: 5%;
+
+}
+
+
+
+
